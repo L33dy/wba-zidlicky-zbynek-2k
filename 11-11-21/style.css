@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Mohave:wght@300&display=swap');
+
+* {
+    text-align: center;
+}
+
+body {
+    background-color: cornflowerblue;
+    border: 3px dotted white;
+}
+
+h1 {
+    font-family: 'Mohave', sans-serif;
+    font-size: 45px;
+}
+
+p {
+    font-family: 'Mohave', sans-serif;
+    font-size: 18px;
+}
+
+.combinators code + p {
+    background-color: antiquewhite;
+}
+
+.pseudo-classes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pseudo-classes h1 {
+    margin: 10px;
+}
+
+.pseudo-classes-buttons-show {
+    border: 2px solid blue;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.pseudo-classes-buttons-hide {
+    border: 2px solid red;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.pseudo-classes-buttons-hide:hover {
+    background-color: red;
+    color: white;
+}
+
+.pseudo-classes-buttons-show:hover {
+    background-color: blue;
+    color: white;
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image img {
+    display: none;
+    text-align: center;
+}
+
+.pseudo-elements p::before {
+    content: url("dancing_chicken.gif");
+}
+
+.pseudo-elements p::after {
+    content: url("dancing_chicken.gif");
+}
+
+.pseudo-elements ul::marker {
+    color: saddlebrown;
+}
+
