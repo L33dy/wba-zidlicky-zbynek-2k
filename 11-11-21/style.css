@@ -28,7 +28,7 @@ code {
     font-style: italic;
 }
 
-.combinators code + p {
+.combinators code ~ p {
     background-color: antiquewhite;
     color: black;
 }
