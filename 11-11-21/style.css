@@ -5,22 +5,32 @@
 }
 
 body {
-    background-color: cornflowerblue;
-    border: 3px dotted white;
+    background-image: url("background-chicken.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h1 {
     font-family: 'Mohave', sans-serif;
     font-size: 45px;
+    color: white;
 }
 
 p {
     font-family: 'Mohave', sans-serif;
     font-size: 18px;
+    color: white;
+}
+
+code {
+    color: white;
+    font-family: 'Mohave', sans-serif;
+    font-style: italic;
 }
 
 .combinators code + p {
     background-color: antiquewhite;
+    color: black;
 }
 
 .pseudo-classes {
