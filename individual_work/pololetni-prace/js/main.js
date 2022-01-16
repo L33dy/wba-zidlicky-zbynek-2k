@@ -31,3 +31,28 @@ function DeleteText() {
         setTimeout(DeleteText, deleteSpeed);
     }
 }
+
+var biosecurity = document.getElementById("biosecurity");
+var contribution = document.getElementById("contribution");
+var care = document.getElementById("care");
+var beauty = document.getElementById("beauty");
+
+function scrollToTop() {
+    window.scrollTo({behavior: "smooth", top: 0});
+}
+
+function scrollToBiosecurity() {
+    biosecurity.scrollIntoView({behavior: "smooth"});
+}
+
+function scrollToContribution() {
+    contribution.scrollIntoView({behavior: "smooth"});
+}
+
+function scrollToCare() {
+    care.scrollIntoView({behavior: "smooth"});
+}
+
+function scrollToBeauty() {
+    beauty.scrollIntoView({behavior: "smooth"});
+}
