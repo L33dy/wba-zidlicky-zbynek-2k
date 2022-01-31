@@ -1,6 +1,7 @@
 html, body {
     padding: 0;
     margin: 0;
+    overflow-x: hidden;
 }
 
 h1, h2 {
@@ -14,7 +15,7 @@ h1, h2 {
     background-color: #f2f2f2;
 
     height: 64px;
-    width: 100%;
+    width: 100vw;
 }
 
 .nav-bar-container {
@@ -32,7 +33,7 @@ h1, h2 {
 
 .nav-bar-item {
     font-family: Roboto, sans-serif;
-    font-size: 1.5rem;
+    font-size: 0.975rem;
     font-weight: 700;
     cursor: pointer;
 }
@@ -65,15 +66,15 @@ h1, h2 {
     border-radius: 50%;
     background-color: #84c0a0;
     opacity: 0.6;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
 }
 
 .title {
     font-family: Roboto,sans-serif;
     font-weight: 700;
     text-transform: uppercase;
-    font-size: 9.375rem;
+    font-size: 3.475rem;
     color: white;
     height: 150px;
 }
@@ -82,46 +83,53 @@ h1, h2 {
     margin-bottom: 30px;
     font-family: Roboto, sans-serif;
     font-weight: 700;
-    font-size: 1.875rem;
+    font-size: 1.275rem;
     text-transform: uppercase;
     color: white;
     letter-spacing: 5px;
 }
 
-.introduction {
-    width: 100%;
-    height: 50vh;
+.biosecurity {
+    text-align: center;
+
+    width: 100vw;
+    height: 40vh;
     font-family: Roboto, sans-serif;
 
     background-color: #f2f2f2;
+    padding-bottom: 20px;
 }
 
-.introduction h2 {
-    font-size: 2.75rem;
+.biosecurity h2 {
+    font-size: 3rem;
     color: black;
     font-weight: 600;
 }
 
-.introduction p {
-    font-size: 1.5rem;
+.biosecurity p {
     color: #808080;
 }
 
-.intro-sheet {
-    text-align: center;
-
+.biosecurity-sheet {
     position: relative;
-    top: 50%;
+
+    top: 75%;
     left: 50%;
     transform: translate(-50%, -50%);
 
-    width: 900px;
+    width: 100%;
+    height: 100%;
 }
 
-.intro-sheet-biosecurity {
+.biosecurity-sheet-header {
+    padding-top: 20px;
+    width: 100%;
+}
+
+.biosecurity-sheet-main {
     color: #84c0a0;
 
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 700;
 
     display: inline-block;
@@ -130,7 +138,7 @@ h1, h2 {
     cursor: default;
 }
 
-.intro-sheet-biosecurity:after {
+.biosecurity-sheet-main:after {
     content: '';
     position: absolute;
     width: 100%;
@@ -143,21 +151,22 @@ h1, h2 {
     transition: transform 0.25s ease-out;
 }
 
-.intro-sheet-biosecurity:hover:after {
+.biosecurity-sheet-main:hover:after {
     transform: scaleX(1);
     transform-origin: bottom left;
 }
 
-.intro-sheet-title {
-    font-size: 3rem;
+.biosecurity-sheet-title {
+    font-size: 2rem;
     font-weight: 700;
 }
 
-.intro-sheet-subtext {
-    padding: 30px 150px;
+.biosecurity-sheet-subtext {
+    font-size: 0.8rem;
+    padding: 30px 100px;
 }
 
-.intro-sheet-button {
+.biosecurity-sheet-button {
     font-weight: 700;
     text-transform: uppercase;
     background-image: none;
@@ -167,8 +176,8 @@ h1, h2 {
     background-color: #84c0a0;
     border-radius: 30px;
 
-    width: 210px;
-    height: 65px;
+    width: 190px;
+    height: 55px;
 
     color: white;
     font-size: inherit;
@@ -176,7 +185,7 @@ h1, h2 {
     cursor: pointer;
 }
 
-.intro-sheet-button:hover {
+.biosecurity-sheet-button:hover {
     background-color: #577c6a;
 
 }

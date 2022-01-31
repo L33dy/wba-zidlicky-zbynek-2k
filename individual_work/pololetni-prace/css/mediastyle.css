@@ -1,0 +1,46 @@
+@media only screen and (min-width: 320px) and (max-width: 375px) {
+    .biosecurity-sheet-subtext {
+        padding: 30px 60px;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1920px){
+    .nav-bar-item {
+        font-size: 1.5rem;
+    }
+
+    .circle {
+        width: 200px;
+        height: 200px;
+    }
+
+    .title {
+        font-size: 9.375rem;
+    }
+
+    .text {
+        font-size: 1.875rem;
+    }
+
+    .biosecurity {
+        height: 50vh;
+    }
+
+    .biosecurity-sheet-main {
+        font-size: 3rem;
+    }
+
+    .biosecurity-sheet-title {
+        font-size: 3rem;
+    }
+
+    .biosecurity-sheet-subtext {
+        font-size: 1.5rem;
+        padding: 30px 550px;
+    }
+
+    .biosecurity-sheet-button {
+        width: 210px;
+        height: 65px;
+    }
+}
