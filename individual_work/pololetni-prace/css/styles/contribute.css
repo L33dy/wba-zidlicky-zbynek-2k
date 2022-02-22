@@ -1,0 +1,99 @@
+.contribute {
+  height: 80vh;
+  font-family: Roboto, sans-serif;
+  padding-top: 10vh;
+  padding-bottom: 5vh;
+}
+
+.contribute-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+  margin: 0 400px;
+}
+
+.contribute-left {
+  height: 100%;
+  width: 50%;
+}
+
+.contribute-right {
+  text-align: center;
+  background-color: #f2f2f2;
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.contribute-right-title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  padding: 0 50px;
+}
+
+.contribute-right-forests {
+  color: #84c0a0;
+  font-size: 3rem;
+  font-weight: 700;
+  display: inline-block;
+  position: relative;
+  cursor: default;
+}
+
+.contribute-right-forests:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #84c0a0;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.contribute-right-forests:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.contribute-right-text {
+  color: #808080;
+  padding: 0 60px;
+  font-size: 1.5rem;
+}
+
+.contribute-right-button {
+  font-weight: 700;
+  text-transform: uppercase;
+  background-image: none;
+  border-style: none;
+  letter-spacing: 0.1rem;
+  background-color: #84c0a0;
+  border-radius: 30px;
+  width: 210px;
+  height: 65px;
+  color: white;
+  font-size: inherit;
+  cursor: pointer;
+}
+
+.contribute-right-button:hover {
+  background-color: #577c6a;
+}
+
+.contribute-left-image {
+  background-image: url("../images/solutions-image.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  width: 100%;
+  height: 100%;
+}
+
+/*# sourceMappingURL=contribute.css.map */

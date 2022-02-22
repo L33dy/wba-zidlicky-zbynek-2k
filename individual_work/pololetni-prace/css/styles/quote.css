@@ -1,0 +1,73 @@
+.quote {
+  height: 50vh;
+  width: 100%;
+  font-family: Roboto, sans-serif;
+  padding-bottom: 100px;
+}
+
+.quote-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  margin: 100px 320px;
+  height: 100%;
+}
+
+.quote-left {
+  width: 125%;
+  height: 100%;
+  border: 15px solid transparent;
+}
+
+.quote-left-image {
+  background-image: url("../images/quote-image.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
+  width: 100%;
+  height: 100%;
+}
+
+.quote-right {
+  width: 100%;
+  height: 100%;
+  border: 15px solid transparent;
+}
+
+.quote-right-bg {
+  background-color: #f2f2f2;
+  width: 100%;
+  height: 100%;
+}
+
+.quote-right-container {
+  padding: 45px;
+}
+
+.quote-right-title {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.quote-right-line {
+  width: 86px;
+  height: 8px;
+  margin: 30px auto 0 0;
+  background-color: #84c0a0;
+}
+
+.quote-right-divider {
+  width: 100%;
+  height: 1px;
+  margin: 15px 0;
+  background-color: black;
+}
+
+.quote-right-content {
+  font-weight: 360;
+  font-size: 1.5rem;
+  line-height: 30px;
+  margin: 47px 0;
+}
+
+/*# sourceMappingURL=quote.css.map */

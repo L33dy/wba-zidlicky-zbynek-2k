@@ -1,0 +1,92 @@
+@import "global";
+
+html, body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+h1, h2 {
+  font-weight: 700;
+}
+
+.nav-bar {
+  z-index: 1;
+
+  position: fixed;
+  background-color: $panel-color;
+
+  height: 64px;
+  width: 100vw;
+}
+
+.nav-bar-container {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+
+  width: 100%;
+}
+
+.nav-bar-item {
+  font-family: Roboto, sans-serif;
+  font-size: 0.975rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.nav-bar-item:hover {
+  color: $green;
+}
+
+.header {
+  height: 100%;
+  width: 100%;
+  background-image: url("../images/header-image.jpg");
+  background-position: 50% 60%;
+}
+.header-sheet {
+  height: 100vh;
+  margin: 0 90px;
+  text-align: center;
+}
+
+.header-text-box {
+  position: absolute;
+  left: 50%;
+  top: 60%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+.circle {
+  border-radius: 50%;
+  background-color: $green;
+  opacity: 0.6;
+  width: 150px;
+  height: 150px;
+}
+
+.title {
+  font-family: Roboto,sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 3.475rem;
+  color: $white;
+  height: 150px;
+}
+
+.text {
+  margin-bottom: 30px;
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  font-size: 1.275rem;
+  text-transform: uppercase;
+  color: $white;
+  letter-spacing: 5px;
+}
