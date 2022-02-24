@@ -9,7 +9,7 @@
 
 .biosecurity h2 {
   font-size: 3rem;
-  color: black;
+  color: #000000;
   font-weight: 600;
 }
 
@@ -78,7 +78,7 @@
   border-radius: 30px;
   width: 190px;
   height: 55px;
-  color: white;
+  color: #ffffff;
   font-size: inherit;
   cursor: pointer;
 }
