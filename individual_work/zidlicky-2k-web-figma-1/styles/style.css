@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 .header {
-  width: 390px;
+  width: 100%;
   height: 80px;
   background-color: #CBC1B1;
 }
@@ -24,10 +24,8 @@
 }
 
 .first-section {
-  position: absolute;
   background-color: #7C7474;
   color: white;
-  margin: 130px 40px 726px 40px;
   width: 310px;
   height: 200px;
   font-family: "Lato", sans-serif;
@@ -38,7 +36,6 @@
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
-  letter-spacing: 0.1em;
   text-transform: uppercase;
   display: flex;
   align-items: center;
@@ -51,7 +48,6 @@
   font-weight: 500;
   font-size: 13px;
   line-height: 15.6px;
-  letter-spacing: 0.1em;
 }
 .first-section button {
   width: 120px;
@@ -64,19 +60,38 @@
   font-weight: 600;
   font-size: 11px;
   line-height: 13.2px;
-  letter-spacing: 0.1em;
   text-align: center;
 }
 
 .second-section {
   width: 310px;
   height: 538px;
-  margin: 380px 40px 138px 40px;
+  margin-top: 50px;
   font-family: "Lato", sans-serif;
 }
 .second-section h2 {
   text-align: center;
   text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 13.2px;
+}
+.second-section h3 {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14.4px;
+  text-transform: uppercase;
+}
+
+.second-section-offers {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main-container {
+  padding: 50px 40px;
 }
 
 /*# sourceMappingURL=style.css.map */

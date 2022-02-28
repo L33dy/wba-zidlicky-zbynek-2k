@@ -3,6 +3,12 @@
 @import "global";
 
 //Homepage
+@import "homepage/mixins/global-mixin";
+
 @import "homepage/header";
 @import "homepage/first-section";
 @import "homepage/second-section";
+
+.main-container {
+  @include main;
+}
