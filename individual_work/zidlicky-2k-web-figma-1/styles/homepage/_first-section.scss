@@ -32,21 +32,6 @@
   }
 
   button {
-    width: 120px;
-    height: 25px;
-
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-
-    color: black;
-    background: #a19b98;
-
-    text-transform: uppercase;
-
-    margin: 0 95px;
-
-    font-weight: 600;
-    font-size: 11px;
-    line-height: 13.2px;
-    text-align: center;
+    @include button-want(#000000)
   }
 }

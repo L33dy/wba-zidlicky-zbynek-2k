@@ -8,7 +8,16 @@
 @import "homepage/header";
 @import "homepage/first-section";
 @import "homepage/second-section";
+@import "homepage/footer";
 
 .main-container {
   @include main;
+}
+
+button {
+  @include button-want($page);
+}
+
+body {
+  background-color: $page;
 }

@@ -22,6 +22,12 @@
 
     text-transform: uppercase;
   }
+
+  p {
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 12px;
+  }
 }
 
 .second-section-offers {
@@ -29,4 +35,23 @@
   justify-content: left;
   align-items: center;
   flex-direction: column;
+
+  margin-top: 32px;
+  gap: 38.8px
+}
+
+.second-section-offers-offer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.second-section-offers-offer-desc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  padding: 21px 23px 24.2px 17.8px;
 }
