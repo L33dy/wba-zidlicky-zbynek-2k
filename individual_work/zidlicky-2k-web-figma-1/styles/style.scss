@@ -14,6 +14,12 @@
   @include main;
 }
 
+//Info
+@import "info/information";
+
+//Contact
+@import "contact/contact";
+
 button {
   @include button-want($page);
 }
