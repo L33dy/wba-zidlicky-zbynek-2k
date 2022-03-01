@@ -16,8 +16,32 @@
 
 <div style="padding: 69px 40px">
     <section class="contact-container">
-
+        <h1>Kontakt</h1>
+        <div class="contact-container-form">
+            <div class="contact-container-form-input">
+                <p id="nameHolder">Jméno</p>
+                <input type="text" onfocus="HidePlaceholder('nameHolder')" onfocusout="ShowPlaceHolder('nameHolder')">
+            </div>
+            <div class="contact-container-form-input">
+                <p id="surnameHolder">Příjmení</p>
+                <input type="text" onfocus="HidePlaceholder('surnameHolder')" onfocusout="ShowPlaceHolder('surnameHolder')">
+            </div>
+            <div class="contact-container-form-input">
+                <p id="mailHolder">E-mail</p>
+                <input type="text" onfocus="HidePlaceholder('mailHolder')" onfocusout="ShowPlaceHolder('mailHolder')">
+            </div>
+            <div class="contact-container-form-input">
+                <p id="telHolder">Telefon</p>
+                <input type="text" onfocus="HidePlaceholder('telHolder')" onfocusout="ShowPlaceHolder('telHolder')">
+            </div>
+            <div class="contact-container-form-input">
+                <p id="messageHolder">Vaše zpráva</p>
+                <textarea onfocus="HidePlaceholder('messageHolder')" onfocusout="ShowPlaceHolder('messageHolder')"></textarea>
+            </div>
+        </div>
     </section>
+
+    <button style="margin-top: 38px">Chci s vámi!</button>
 </div>
 
 <section class="footer">
@@ -28,6 +52,8 @@
         </ul>
     </div>
 </section>
+
+<script src="js/form.js"></script>
 
 </body>
 </html>
