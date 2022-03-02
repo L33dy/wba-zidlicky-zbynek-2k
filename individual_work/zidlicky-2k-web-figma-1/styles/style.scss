@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 @import "global";
+@import "mediastyle";
 
 //Homepage
-@import "homepage/mixins/global-mixin";
+@import "global-mixin";
 
 @import "homepage/header";
 @import "homepage/first-section";
@@ -15,10 +16,10 @@
 }
 
 //Info
-@import "info/information";
+@import "../info/styles/information";
 
 //Contact
-@import "contact/contact";
+@import "../contact/styles/contact";
 
 button {
   @include button-want($page);

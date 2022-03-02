@@ -10,7 +10,7 @@
 <body>
 
 <div class="header">
-    <img class="header-logo" alt="logo.svg" src="../images/homepage/logo.svg">
+    <img class="header-logo" alt="logo.svg" src="../images/homepage/logo.svg" onclick="toHomePage()">
     <img class="header-menu" alt="burger-menu.png" src="../images/homepage/burger-menu.png">
 </div>
 
@@ -20,23 +20,23 @@
         <div class="contact-container-form">
             <div class="contact-container-form-input">
                 <p id="nameHolder">Jméno</p>
-                <input type="text" onfocus="HidePlaceholder('nameHolder')" onfocusout="ShowPlaceHolder('nameHolder')">
+                <input id="nameInput" type="text" onfocus="HidePlaceholder('nameHolder')" onfocusout="ShowPlaceHolder('nameHolder', 'nameInput')">
             </div>
             <div class="contact-container-form-input">
                 <p id="surnameHolder">Příjmení</p>
-                <input type="text" onfocus="HidePlaceholder('surnameHolder')" onfocusout="ShowPlaceHolder('surnameHolder')">
+                <input id="surnameInput" type="text" onfocus="HidePlaceholder('surnameHolder')" onfocusout="ShowPlaceHolder('surnameHolder', 'surnameInput')">
             </div>
             <div class="contact-container-form-input">
                 <p id="mailHolder">E-mail</p>
-                <input type="text" onfocus="HidePlaceholder('mailHolder')" onfocusout="ShowPlaceHolder('mailHolder')">
+                <input id="mailInput" type="text" onfocus="HidePlaceholder('mailHolder')" onfocusout="ShowPlaceHolder('mailHolder', 'mailInput')">
             </div>
             <div class="contact-container-form-input">
                 <p id="telHolder">Telefon</p>
-                <input type="text" onfocus="HidePlaceholder('telHolder')" onfocusout="ShowPlaceHolder('telHolder')">
+                <input id="telInput" type="text" onfocus="HidePlaceholder('telHolder')" onfocusout="ShowPlaceHolder('telHolder', 'telInput')">
             </div>
             <div class="contact-container-form-input">
                 <p id="messageHolder">Vaše zpráva</p>
-                <textarea onfocus="HidePlaceholder('messageHolder')" onfocusout="ShowPlaceHolder('messageHolder')"></textarea>
+                <textarea id="messageInput" onfocus="HidePlaceholder('messageHolder')" onfocusout="ShowPlaceHolder('messageHolder', 'messageInput')"></textarea>
             </div>
         </div>
     </section>
