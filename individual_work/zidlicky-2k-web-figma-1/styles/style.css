@@ -3,35 +3,39 @@
   width: 100%;
   height: 80px;
   background-color: #CBC1B1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  gap: 200px;
 }
 
 .header-logo {
-  position: absolute;
   width: 80px;
   height: 66.13px;
-  left: 40px;
-  top: 7px;
   cursor: pointer;
 }
 
 .header-menu {
-  position: absolute;
   width: 30px;
   height: 30px;
-  left: 320px;
-  top: 28px;
   cursor: pointer;
+  display: block;
+}
+
+.header-nav {
+  display: none;
 }
 
 .first-section {
   background-color: #7C7474;
   color: white;
-  width: 310px;
+  width: 100%;
   height: 200px;
-  font-family: "Lato", sans-serif;
+  text-align: center;
 }
 .first-section h1 {
-  width: 310px;
+  width: 100%;
   height: 62px;
   font-weight: 700;
   font-size: 1.25rem;
@@ -42,9 +46,8 @@
   justify-content: center;
 }
 .first-section p {
-  width: 290px;
+  width: 100%;
   height: 74px;
-  margin: 4px 10px 18px 10px;
   font-weight: 500;
   font-size: 0.8125rem;
   line-height: 0.975rem;
@@ -62,6 +65,10 @@
   font-size: 0.6875rem;
   line-height: 0.825rem;
   text-align: center;
+}
+
+.media-first-section {
+  display: none;
 }
 
 .second-section {
@@ -244,6 +251,60 @@ button {
 
 body {
   background-color: #F8F7EC;
+}
+
+@media only screen and (min-width: 1024px) {
+  .header {
+    height: 150px;
+    gap: 24.069%;
+  }
+
+  .header-logo {
+    width: 150px;
+    height: 150px;
+    margin-left: 163px;
+  }
+
+  .header-menu {
+    display: none;
+  }
+
+  .header-nav {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 29px;
+    margin-right: 11.458%;
+  }
+  .header-nav p {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.125rem;
+    line-height: 1.35rem;
+  }
+
+  .header-nav-item {
+    padding: 16px 18px 17px 18px;
+  }
+
+  .first-section {
+    display: none;
+  }
+
+  .media-first-section {
+    display: block;
+  }
+  .media-first-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .header {
+    gap: 30.069%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

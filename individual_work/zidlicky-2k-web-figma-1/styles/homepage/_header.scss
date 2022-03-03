@@ -3,21 +3,21 @@
 }
 
 .header-logo {
-  position: absolute;
   width: 80px;
   height: 66.13px;
-  left: 40px;
-  top: 7px;
 
   cursor: pointer;
 }
 
 .header-menu {
-  position: absolute;
   width: 30px;
   height: 30px;
-  left: 320px;
-  top: 28px;
 
   cursor: pointer;
+
+  display: block;
+}
+
+.header-nav {
+  display: none;
 }

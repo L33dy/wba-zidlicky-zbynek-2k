@@ -1,0 +1,58 @@
+@media only screen and (min-width: 1024px) {
+  .header {
+    height: 150px;
+
+    gap: 24.069%;
+  }
+
+  .header-logo {
+    width: 150px;
+    height: 150px;
+
+    margin-left: 163px;
+  }
+
+  .header-menu {
+    display: none;
+  }
+
+  .header-nav {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 29px;
+    margin-right: 11.458%;
+
+    p {
+      text-align: center;
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 1.125rem;
+      line-height: 1.35rem;
+    }
+  }
+
+  .header-nav-item {
+    padding: 16px 18px 17px 18px;
+  }
+
+  .first-section {
+    display: none;
+  }
+
+  .media-first-section {
+    display: block;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .header {
+    gap: 30.069%;
+  }
+}

@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 @import "global";
-@import "mediastyle";
 
 //Homepage
 @import "global-mixin";
@@ -28,3 +27,5 @@ button {
 body {
   background-color: $page;
 }
+
+@import "mediastyle";
