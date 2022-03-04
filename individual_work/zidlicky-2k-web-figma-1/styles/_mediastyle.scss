@@ -34,6 +34,10 @@
 
   .header-nav-item {
     padding: 16px 18px 17px 18px;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: clip;
   }
 
   .first-section {

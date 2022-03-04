@@ -24,8 +24,4 @@ button {
   @include button-want($page);
 }
 
-body {
-  background-color: $page;
-}
-
 @import "mediastyle";
