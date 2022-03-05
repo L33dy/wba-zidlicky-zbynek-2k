@@ -53,6 +53,55 @@
       object-fit: cover;
     }
   }
+
+  .main-container {
+    padding: 92px 161px 106px 163px;
+  }
+
+  .second-section {
+    height: 833px;
+
+    h2 {
+      width: 100%;
+
+      font-size: 2.25rem;
+      line-height: 2.7rem;
+    }
+
+    h3 {
+      margin-top: 28px;
+      margin-bottom: 22px;
+
+      font-size: 1.5rem;
+      line-height: 1.8rem;
+    }
+
+    p {
+      font-size: 1.125rem;
+      line-height: 1.35rem;
+    }
+  }
+
+  .second-section-offers {
+    flex-direction: row;
+    justify-content: center;
+
+    gap: 31px;
+    margin-top: 104px;
+  }
+
+  .second-section-offers-offer {
+    flex-direction: column;
+
+    img {
+      width: 350px;
+      height: 350px;
+    }
+  }
+
+  .second-section-offers-offer-desc {
+    padding: 0;
+  }
 }
 
 @media only screen and (min-width: 1440px) {

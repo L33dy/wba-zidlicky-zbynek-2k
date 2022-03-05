@@ -16,9 +16,6 @@
   height: 88px;
 
   background-color: $header;
-
-  position: absolute;
-  bottom: 0;
 }
 
 @mixin button-want($color) {
@@ -33,12 +30,13 @@
 
     text-transform: uppercase;
 
-    margin: 0 95px;
-
     font-weight: 600;
     font-size: 0.6875rem;
     line-height: 0.825rem;
     text-align: center;
+
+    margin-right: 50%;
+    margin-left: 50%;
 }
 
 @mixin main {
