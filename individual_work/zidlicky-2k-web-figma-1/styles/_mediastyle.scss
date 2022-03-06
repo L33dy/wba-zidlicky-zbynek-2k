@@ -1,4 +1,12 @@
 @media only screen and (min-width: 1024px) {
+  button {
+    width: 180px;
+    height: 55px;
+
+    font-size: 1.125rem;
+    line-height: 1.35rem;
+  }
+
   .header {
     height: 150px;
 
@@ -100,7 +108,7 @@
   }
 
   .second-section-offers-offer-desc {
-    padding: 0;
+    padding: 0 10%;
   }
 }
 
