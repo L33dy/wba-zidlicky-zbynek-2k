@@ -1,7 +1,11 @@
 .information-container {
-  width: 295px;
-  height: 469.82px;
+  width: inherit;
+  height: 100%;
 
+  padding: 17% 10% 17% 14.1%;
+}
+
+.information-container-content {
   display: flex;
   justify-content: left;
   align-items: center;
@@ -19,6 +23,8 @@
   justify-content: space-evenly;
   align-items: center;
   flex-direction: row;
+
+  margin-bottom: 34px;
 
   p {
     width: 100%;
