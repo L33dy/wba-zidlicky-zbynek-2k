@@ -68,7 +68,6 @@ body {
   font-size: 0.6875rem;
   line-height: 0.825rem;
   text-align: center;
-  margin-left: 50%;
 }
 
 .media-first-section {
@@ -80,6 +79,7 @@ body {
   height: 538px;
   margin-top: 50px;
   font-family: "Lato", sans-serif;
+  text-align: left;
 }
 .second-section h2 {
   text-align: center;
@@ -156,7 +156,8 @@ body {
 }
 
 .main-container {
-  padding: 50px 40px;
+  padding: 12.82% 10.26%;
+  text-align: center;
 }
 
 .information-container {
@@ -193,7 +194,8 @@ body {
 }
 
 .contact {
-  padding: 69px 40px;
+  padding: 17.7% 10.3%;
+  text-align: center;
 }
 
 .contact-container {
@@ -214,7 +216,7 @@ body {
   margin-top: 38px;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -264,7 +266,6 @@ button {
   font-size: 0.6875rem;
   line-height: 0.825rem;
   text-align: center;
-  margin-left: 50%;
 }
 
 @media only screen and (min-width: 1024px) {
@@ -335,7 +336,7 @@ button {
   }
 
   .main-container {
-    padding: 92px 161px 106px 163px;
+    padding: 6.4% 11.2% 7.4% 11.3%;
   }
 
   .second-section {
@@ -396,6 +397,33 @@ button {
   .information-container-info p {
     font-size: 1.125rem;
     line-height: 1.35rem;
+  }
+
+  .contact {
+    padding: 11.3% 22.9% 9.1% 22.9%;
+  }
+
+  .contact-container h1 {
+    font-size: 3rem;
+  }
+
+  .contact-container-form {
+    height: 100%;
+    margin-top: 42px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    gap: 20px;
+  }
+
+  .contact-container-form-input {
+    flex: 1 0 40%;
+    height: 40px;
+  }
+  .contact-container-form-input p {
+    font-size: 1rem;
+    margin-top: 8px;
+    margin-left: 19px;
   }
 }
 @media only screen and (min-width: 1440px) {

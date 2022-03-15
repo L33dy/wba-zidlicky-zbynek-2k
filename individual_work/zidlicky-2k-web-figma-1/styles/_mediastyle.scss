@@ -73,7 +73,7 @@
   }
 
   .main-container {
-    padding: 92px 161px 106px 163px;
+    padding: 6.4% 11.2% 7.4% 11.3%;
   }
 
   .second-section {
@@ -142,6 +142,41 @@
     p {
       font-size: 1.125rem;
       line-height: 1.35rem;
+    }
+  }
+
+  .contact {
+    padding: 11.3% 22.9% 9.1% 22.9%;
+  }
+
+  .contact-container {
+    h1 {
+      font-size: 3rem;
+    }
+  }
+
+  .contact-container-form {
+    height: 100%;
+
+    margin-top: 42px;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    row-gap: 20px;
+    gap: 20px;
+  }
+
+  .contact-container-form-input {
+    flex: 1 0 40%;
+
+    height: 40px;
+
+    p {
+      font-size: 1rem;
+
+      margin-top: 8px;
+      margin-left: 19px;
     }
   }
 }

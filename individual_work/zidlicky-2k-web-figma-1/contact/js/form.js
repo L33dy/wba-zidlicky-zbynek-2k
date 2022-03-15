@@ -12,7 +12,3 @@ function ShowPlaceHolder(holder, input) {
     }
 }
 
-function toHomePage() {
-    window.location.href = "../index.html";
-}
-
