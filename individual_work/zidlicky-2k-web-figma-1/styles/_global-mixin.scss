@@ -16,6 +16,8 @@
   height: 88px;
 
   background-color: $header;
+
+  bottom: 0;
 }
 
 @mixin button-want($color) {
