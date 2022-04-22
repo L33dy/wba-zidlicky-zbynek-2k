@@ -56,3 +56,5 @@ function scrollToCare() {
 function scrollToBeauty() {
     beauty.scrollIntoView({behavior: "smooth"});
 }
+
+window.onload = Type();
