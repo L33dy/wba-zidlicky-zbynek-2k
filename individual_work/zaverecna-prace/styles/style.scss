@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100vw;
+  height: 589px;
+
+  background-image: url("../img/header.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .header-writing {
+    margin: 401px 751px 32px 175px;
+
+    font-size: 8rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    line-height: 9.75rem;
+
+    color: #00084E;
+    opacity: 0.8;
+    text-transform: uppercase;
+  }
+}
+
+.empty-partition {
+  height: 589px;
+  width: 100vw;
+}
+
+.main {
+  max-width: 81vw;
+  height: fit-content;
+  margin: 0 auto 158px;
+  padding-top: 89px;
+
+  text-align: center;
+
+  font-family: "Montserrat", sans-serif;
+
+  .main-news-header {
+    color: #00084E;
+    opacity: 0.8;
+    font-weight: 500;
+    font-size: 3rem;
+    line-height: 3.688rem;
+  }
+
+  .main-sel {
+    width: 100%;
+    height: fit-content;
+
+    margin-top: 55px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    gap: 55px;
+
+    .main-sel-item {
+      width: 350px;
+      height: 420px;
+
+      background: linear-gradient(180deg, rgba(0, 197, 255, 0.2) 0%, rgba(0, 171, 221, 0.2) 0.01%, rgba(255, 255, 255, 0.2) 100%),
+      linear-gradient(0deg, rgba(109, 189, 208, 0.23), rgba(109, 189, 208, 0.23));
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+
+      text-align: left;
+
+      padding: 29px 0 32px 0;
+
+      gap: 25px;
+
+      .main-sel-item-img {
+        margin: 0 35px;
+      }
+
+      p {
+        margin: 0 25px;
+      }
+
+      .main-sel-item-h {
+        font-weight: 600;
+        font-size: 1rem;
+        line-height: 1.219rem;
+      }
+
+      .main-sel-item-desc {
+        font-weight: 300;
+        font-size: 0.81rem;
+        line-height: 1rem;
+      }
+    }
+  }
+}
